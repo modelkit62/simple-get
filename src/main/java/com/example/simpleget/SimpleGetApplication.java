@@ -13,7 +13,7 @@ public class SimpleGetApplication {
 		SpringApplication.run(SimpleGetApplication.class, args);
 	}
 
-	@RequestMapping("/")
+	@RequestMapping("/get")
 	private String getMessage(){
 		return "Hello World!";
 	}
